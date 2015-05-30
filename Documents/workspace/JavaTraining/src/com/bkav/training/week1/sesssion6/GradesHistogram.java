@@ -23,5 +23,7 @@ public class GradesHistogram {
 	public static void printHistogramHorizontal() { ...... }
 		 // Print histogram based on the "bins" array.
 	public static void printHistogramVertical() { ...... }
+	
+	
 	}
 }
