@@ -22,8 +22,9 @@ public class GradesHistogram {
 		 // Print histogram based on the "bins" array.
 	public static void printHistogramHorizontal() { ...... }
 		 // Print histogram based on the "bins" array.
-	public static void printHistogramVertical() { ...... }
-	
-	
+	public static void printHistogramVertical() {
+		System.out.println("in ket qua");
+	}
+
 	}
 }
