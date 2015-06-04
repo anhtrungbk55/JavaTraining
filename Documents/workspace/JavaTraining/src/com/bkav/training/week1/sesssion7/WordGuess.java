@@ -24,7 +24,7 @@ public class WordGuess {
 			for (int i = 0; i < strLeng; i++) {
 				char[] arrChar = {secretStr.charAt(i)}; //chuyển dạng char sang String
 				String objStr = new String(arrChar);    // chuyển dạng char sang String
-				if (guessStr == objStr){
+				if (guessStr.equals(objStr)){
 					check[i] = true;
 				}
 			}
